@@ -9,5 +9,6 @@ public class PagoControlador {
     @GetMapping("/")
     public String inicio() {
         return "Inicio jejejeje";
+
     }
 }
