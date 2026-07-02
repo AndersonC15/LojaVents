@@ -1,4 +1,7 @@
 package com.lojavents.api.seguridad;
 
-public record DatosTokenJWT() {
+public record DatosTokenJWT(
+        String token,
+        String tipo
+) {
 }
