@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class AuthControlador {
 
-    @GetMapping("/")
+    @GetMapping("/usuarios")
     public String inicio() {
         return "Backend LojaVents funcionando correctamente";
     }

@@ -7,7 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class LocalControlador {
 
-    @
-
-
+    @GetMapping("/locales")
+    public String inicio() {
+        return "Locales Existentes correctamente";
+    }
 }
+
